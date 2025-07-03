@@ -1,0 +1,17 @@
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yuma_tools"
+version = "0.1.0"
+authors = [{name = "Your Name", email = "you@example.com"}]
+description = "A GNSS toolkit for downloading and parsing YUMA almanac files"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["yuma_tools"]
